@@ -68,6 +68,23 @@ img {
     width:100%;
 }
 
+ul {
+    list-style: none;
+}
+
+#upcoming-screenings li p{
+    padding-left: 40px;
+}
+
+#workshops-topics ul li, #contact-the-collective ul li {
+    margin-bottom: 15px;
+}
+
+#student-testimonial > p:last-child {
+    display: flex;
+    justify-content: right;
+}
+
 #welcome, #screenings, #upcoming-screenings, #workshops, #workshops-topics, #student-testimonial, #collaborations, #contact-the-collective {
     background-color: #1e293b;
     padding: 1rem;
@@ -75,6 +92,7 @@ img {
     border-left: 4px solid #38bdf8;
     margin-bottom: .5rem;
 }
+
 
 aside {
     background-color: #38bdf8;
@@ -136,6 +154,11 @@ footer {
 
     .card-row {
         display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 
+    .card-row section {
+        width: 30%;
+    }
 }

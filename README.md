@@ -23,7 +23,7 @@ relative page navigation.
 
 ## Published Website
 
-[Add your GitHub Pages URL here]
+[https://jacklyn-mota.github.io/5-Build/](https://jacklyn-mota.github.io/5-Build/)
 
 ## AI Use Statement
 

@@ -1,8 +1,8 @@
-/* CSS by Christina Carrasquilla, iteration by */
+/* CSS by Christina Carrasquilla, iteration by Jacklyn Mota*/
 
 /* ===== Color Palette ===== 
 
-    backgound: #0f172a;
+    background: #0f172a;
     nav-footer: #020617;
     card: #1e293b;
     text-main: #e2e8f0;
@@ -68,11 +68,12 @@ img {
     width:100%;
 }
 
-#screenings, #workshops, #collaborations {
+#welcome, #screenings, #upcoming-screenings, #workshops, #workshops-topics, #student-testimonial, #collaborations, #contact-the-collective {
     background-color: #1e293b;
     padding: 1rem;
     padding: 1rem;
     border-left: 4px solid #38bdf8;
+    margin-bottom: .5rem;
 }
 
 aside {
@@ -109,3 +110,32 @@ footer {
 /* target the nav and display it flex, spaceed around */
 /* target the .card-row to display flex */
 /* target the sections in .card-row witha width for 30% */
+
+@media screen and (min-width: 800px){
+    body {
+        grid-template-columns: 1fr 300px ;
+    }
+
+    header, nav, footer {
+        grid-column: 1/-1;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav a {
+        border-left: none;
+    }
+
+    aside {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-row {
+        display: flex;
+    }
+
+}
